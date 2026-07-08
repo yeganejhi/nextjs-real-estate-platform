@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/public/*": ["./public/*"],
+      "@/app/*": ["./src/app/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/models/*": ["./src/models/*"],
+      "@/providers/*": ["./src/providers/*"],
+      "@/api/*": ["./src/app/api/*"],
+      "@/module/*": ["./src/components/module/*"],
+      "@/template/*": ["./src/components/template/*"],
+      "@/layout/*": ["./src/components/layout/*"]
+    }
+  }
+}
