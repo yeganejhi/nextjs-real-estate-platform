@@ -5,9 +5,10 @@ import React from "react";
 export default async function BuyResidential({ searchParams }) {
   const params = await searchParams;
 
-  const res = await fetch("http://localhost:3000/api/profile", {
-    cache: "no-store",
-  });
+ const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+const res = await fetch(`${baseUrl}/api/profile`, {
+  cache: "no-store",
+});
   const data = await res.json();
 
   if (data.error) return <h3>there is something wrong</h3>;
