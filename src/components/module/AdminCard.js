@@ -35,7 +35,7 @@ export default function AdminCard({
   };
   
   return (
-    <div className="bg-white rounded-lg shadow hover:shadow-md transition-all duration-300 p-3 border border-gray-100 w-full max-w-[280px]">
+    <div className="bg-white rounded-lg shadow hover:shadow-md transition-all duration-300 p-3 border border-gray-100 w-full max-w-70">
       <h3 className="text-base font-semibold text-gray-800 mb-2 line-clamp-1">{title}</h3>
       <p className="text-gray-500 text-sm mb-3 line-clamp-2">{description}</p>
       <div className="flex justify-between items-center text-xs text-gray-500 mb-3 pb-2 border-b">
