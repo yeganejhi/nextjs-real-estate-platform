@@ -3,10 +3,8 @@
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)
 ![MongoDB](https://img.shields.io/badge/MongoDB-7.0-green?style=flat-square&logo=mongodb)
 ![Tailwind](https://img.shields.io/badge/Tailwind-3.0-38B2AC?style=flat-square&logo=tailwind-css)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)
 ![Netlify](https://img.shields.io/badge/Deployed-Netlify-00C7B7?style=flat-square&logo=netlify)
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)
 > A fast, secure, and production-ready residential property platform built with Next.js and MongoDB. This project demonstrates scalable software architecture and optimized server-side performance.
 
 <p align="center">
@@ -206,4 +204,3 @@ I built this software ecosystem from the ground up as a central component of my 
 I am actively seeking feedback from senior engineers and academic reviewers. If you have suggestions about the architecture, security practices, or code quality, please feel free to open an **Issue** or start a **Discussion**.
 
 **License:** Distributed under the open-source MIT License. You are free to use and adapt this architecture for your own projects.
->>>>>>> 39ac515 (docs: update README with JWT expiration details)
