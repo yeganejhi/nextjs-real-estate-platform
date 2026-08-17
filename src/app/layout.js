@@ -22,7 +22,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${cabin.variable}`}>
+    <html lang="en" className={`${cabin.variable}`} suppressHydrationWarning>
       <body className="font-sans min-h-screen flex flex-col">
         <NextAuthProvider>
           <Layout>{children}</Layout>
