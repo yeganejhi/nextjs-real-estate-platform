@@ -9,7 +9,6 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { ThreeDots } from "react-loader-spinner";
-import { useRouter } from "next/navigation";
 
 export default function AddProfilePage({ data }) {
   const router = useRouter();
@@ -40,7 +39,6 @@ export default function AddProfilePage({ data }) {
     } else {
       toast.success(data.message);
       router.refresh();
-      router.push("/dashboard/my-profiles")
 
     }
   };
