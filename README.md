@@ -3,7 +3,6 @@
 ![Next.js](https://img.shields.io/badge/Next.js-16.2.6-black?style=flat-square&logo=next.js)
 ![Mongoose](https://img.shields.io/badge/Mongoose-9.6.3-green?style=flat-square)
 ![Tailwind](https://img.shields.io/badge/Tailwind-4-38B2AC?style=flat-square&logo=tailwind-css)
-![Netlify](https://img.shields.io/badge/Deployed-Netlify-00C7B7?style=flat-square&logo=netlify)
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 > A full-stack residential property platform built with Next.js and MongoDB, featuring authentication, role-based access control, server-side data fetching, and advanced filtering.
 
@@ -20,13 +19,13 @@ Shelterhub is designed to show modern web development practices in a real-world 
 * **Authentication & Authorization:** Implements JWT-based authentication with NextAuth.js and role-based access control (RBAC).
 * **Smart Filtering:** Handles complex search filters (like categories) directly through URL parameters without flashing empty screens.
 * **Mobile-Friendly:** A fully responsive, clean user interface styled with Tailwind CSS.
-* **Live & Ready:** Fully functional and deployed on Netlify for you to test.
+* **Live & Ready:** Fully functional and deployed on Render for you to test.
 
 ##  See it in Action
 
 You can experience the live application right now:
 
-🔗 **Launch Shelterhub:** [https://shelterhub.netlify.app](https://shelterhub.netlify.app)
+🔗 **Launch Shelterhub:** [https://shelterhub-hq58.onrender.com/](https://shelterhub-hq58.onrender.com/)
 
 ##  Overview
 
@@ -46,7 +45,6 @@ I built this project to demonstrate a clean, maintainable architecture for a mod
 - **[react-hot-toast 2.6](https://react-hot-toast.com/)** - Toast notifications
 - **[react-icons 5.6](https://react-icons.github.io/)** - Icons
 - **[react-multi-date-picker 4.5.2](https://github.com/aryan-aneja/React-Multi-Date-Picker)** - Date picker
-- **[Netlify](https://www.netlify.com/)** - Hosting & deployment
 ---
 
 ##  Technical Decisions & Trade-offs
